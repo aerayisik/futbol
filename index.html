@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Futbol</title>
+</head>
+<div id="container">
+<div class="team" id="team1">
+<h2>Galatasaray</h2>
+<p id="score1">7</p>
+<div class="score-table">
+<button onclick="increaseScore(1)">+</button>
+<button onclick="decreaseScore(1)">-</button>
+</div>
+<button onclick="setscorePromt(1)">Skor</button>
+<button onclick="openNameInput(1)">İsim Ayarlama</button>
+<button id="resetbutton1">Reset</button>
+</div>
+<div class="team" id="team2">
+<h2>Fenerbahçe</h2>
+<p id="score2">0</p>
+<div class="score-table">
+<button onclick="increaseScore(2)">+</button>
+<button onclick="decreaseScore(2)">-</button>
+</div>
+<button onclick="setscorePromt(2)">Skor</button>
+<button onclick="openNameInput(2)">İsim Ayarlama</button>
+<button id="resetbutton2">Reset</button>
+</div>   
+</div>
+
+
+
+
+
+
+<body>
+<script src="script.js"></script>
+</body>
+</html>
